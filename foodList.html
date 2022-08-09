@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>UTAS - Lunch</title>
+</head>
+<body>
+     <!-- Header Start here -->
+    <div class="header-bg">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid mx-md-5">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"  style="height: 40px;" class="d-inline-block align-top" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>      
+                        <li class="nav-item"><a class="nav-link text-dark" href="menu.html">Menu</a></li>      
+                        <li class="nav-item"><a class="nav-link text-dark active" href="dashboard.html">Master Food & Beverage </a></li>
+                    </ul>
+                    <div>
+                        <a href="register.html"  class="btn-style text-decoration-none rounded-pill me-3"><i class="fa fa-user me-2"></i> Register</a>
+                        <a href="login.html"   class="btn-style text-decoration-none rounded-pill"><i class="fa fa-lock me-2"></i> Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="header-bg vh-50 d-flex">
+        <div class="container m-auto">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                <h1 class="text-center">Dashboard</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End Here -->
+
+      <!-- Section Start Here -->
+      <section>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12 pb-3">
+                   <div class="fs-2">Food & Beverage List</div>
+                </div>
+              <div class="col-md-3">
+                <div class="rounded py-3 side-bar-bg px-2">
+                    <ul class="list-unstyled">
+                        <li class="mt-2"><a href="foodList.html" class="text-decoration-none text-dark fs-5 active" >Food & Beverage List</a></li>
+                        <li class="mt-2"><a href="dashboard.html" class="text-decoration-none text-dark fs-5" > Add & Beverage & Food Items</a></li>
+                    </ul>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="container">
+                    <table class="table table-hover table-responsive">
+                        <thead>
+                            <tr>
+                                <th>Image</th>
+                                <th>Title</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                                <th>Date</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="assets/images/products/1.jpg" width="100px" alt=""></td>
+                                <td>Beverage</td>
+                                <td>Beverage Food Item</td>
+                                <td>26.52 $ </td>
+                                <td>15-08-2022</td>
+                                <td>
+                                    <a href=""><i class="fa fa-edit fs-4 me-2"></i></a>
+                                    <a href=""><i class="fa fa-trash text-danger fs-4"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/images/products/2.jpg" width="100px" alt=""></td>
+                                <td>Beverage</td>
+                                <td>Beverage Food Item</td>
+                                <td>26.52 $ </td>
+                                <td>15-08-2022</td>
+                                <td>
+                                    <a href=""><i class="fa fa-edit fs-4 me-2"></i></a>
+                                    <a href=""><i class="fa fa-trash text-danger fs-4"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="assets/images/products/4.jpg" width="100px" alt=""></td>
+                                <td>Beverage</td>
+                                <td>Beverage Food Item</td>
+                                <td>26.52 $ </td>
+                                <td>15-08-2022</td>
+                                <td>
+                                    <a href=""><i class="fa fa-edit fs-4 me-2"></i></a>
+                                    <a href=""><i class="fa fa-trash text-danger fs-4"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </section>
+      <!-- Section End Here -->
+
+        <!-- Footer Section Start Here -->
+        <footer>
+            <div class="text-center footer py-3">
+                 <div class="fs-5">
+                    Copyright &copy; 2022. All Rights Reserved.
+                 </div>
+            </div>
+        </footer>
+        <!-- End Footer Section -->
+    </body>
+    </html>

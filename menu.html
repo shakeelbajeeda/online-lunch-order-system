@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>UTAS - Lunch</title>
+</head>
+<body>
+     <!-- Header Start here -->
+    <div class="header-bg">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid mx-md-5">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"  style="height: 40px;" class="d-inline-block align-top" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>      
+                        <li class="nav-item"><a class="nav-link text-dark active" href="menu.html">Menu</a></li>      
+                        <li class="nav-item"><a class="nav-link text-dark" href="dashboard.html">Master Food & Beverage </a></li>
+                    </ul>
+                    <div>
+                        <a href="register.html"  class="btn-style text-decoration-none rounded-pill me-3"><i class="fa fa-user me-2"></i> Register</a>
+                        <a href="login.html"   class="btn-style text-decoration-none rounded-pill"><i class="fa fa-lock me-2"></i> Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="header-bg vh-50 d-flex">
+        <div class="container m-auto">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h4>Shop Opening Time: <span class="text-danger">9AM</span></h4>
+                </div>
+                <div class="col-6">
+                    <h4 class="float-end">Shop Closing Time: <span class="text-danger">12PM</span></h4>
+                </div>
+                <div class="col-12">
+                <h1 class="text-center">Landscape Restaurant & Grill</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End Here -->
+
+    <!-- Section Start Here -->
+    <section>
+        <div class="container py-5">
+           <div class="row justify-content-center">
+              <div class="col-12">
+                <div class="text-center fs-2">FOOD & BEVERAGE AVAILABLE AT THE SHOP</div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/1.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage Items</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/2.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage & Food</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/3.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage & Food</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/4.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage & Food</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/5.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage Items</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/6.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage Items</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/7.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage Items</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/8.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage Items</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/9.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage Items</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-4">
+                <div class="card shadow-lg">
+                  <div>
+                    <img src="assets/images/products/1.jpg" width="100%" alt="product img">
+                  </div>
+                  <div class="card-body">
+                      <div class="fs-4">Beverage Items</div>
+                      <div class="fs-6 description">  Beverage Items Beverage Items</div>
+                      <div class="row mt-2">
+                        <div class="col-6">
+                            Qty:<input type="number" value="1" id="quantity" name="quantity"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                             min="1" style="width: 50px;" maxlength="2">
+                        </div>
+                        <div class="col-6">
+                            Price : $26.45
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                           <a href="" class="btn-style text-decoration-none rounded-pill"><i class="fa fa-shopping-cart me-2"></i> Order Now</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-5">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+              </div>
+           </div>
+        </div>
+    </section>
+    <!-- Section End Here -->
+
+        <!-- Footer Section Start Here -->
+        <footer>
+            <div class="text-center footer py-3">
+                 <div class="fs-5">
+                    Copyright &copy; 2022. All Rights Reserved.
+                 </div>
+            </div>
+        </footer>
+        <!-- End Footer Section -->
+    </body>
+    </html>
